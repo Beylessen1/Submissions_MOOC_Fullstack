@@ -32,7 +32,7 @@ const App = () => {
       <Content name={parts[1].name} number={parts[1].number}/>
       <Content name={parts[2].name} number={parts[2].number}/>
 
-      <Total total={parts[0].number + parts[0].number + parts[0].number}/>
+      <Total total={parts[0].number + parts[1].number + parts[2].number}/>
     </div>
   )
 }
